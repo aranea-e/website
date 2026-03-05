@@ -545,7 +545,6 @@ function spawnFish() {
 
 	if (difficulty < 9.0) {
 		difficulty += 0.1;
-		PS.debug("Difficulty: " + difficulty + "\n");
 	}
 
 	if (firstFishTimer % 2 == 0) {
